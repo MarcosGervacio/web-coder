@@ -57,6 +57,7 @@ footer{
 /* HEADER */
 .logo{
     width: 70px !important;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255,0.8));
 }
 
 .nav{
@@ -82,7 +83,9 @@ footer{
     font-size: 20px;
     color: rgb(0, 255, 34);
     margin: 25px;
+    text-shadow: 0 0 10px #ffffff;  
 }
+
 
 .nav ul{
     list-style: none;
@@ -171,7 +174,7 @@ footer{
     margin-right: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 30px
+    padding: 30px;
 }
 .form-casillero{
     width: 50%;
