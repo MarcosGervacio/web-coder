@@ -202,6 +202,20 @@ footer{
 .form-casillero-select{
     width: 50%;
 }
+
+.enviar-modif{
+    background-color: #2f6416;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+ 
+}
+.enviar-modif:hover{
+    background-color: #67dd31;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255,0.8));
+}
 /* SOPORTE */
 
 
