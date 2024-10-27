@@ -49,10 +49,11 @@ footer{
     color: white;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
+
 .parrafo-footer{
-    height: 200px;
+    height: 40px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 /* HEADER */
 .logo{
