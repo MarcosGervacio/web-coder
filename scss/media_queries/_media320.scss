@@ -1,0 +1,28 @@
+@media (max-width: 320px) {
+    .parrafo-footer{
+        font-size: 13px;
+    }
+    .seccion3{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "grid-item1 grid-item1 grid-item1"
+        "grid-item2 grid-item2 grid-item2";
+        .grid-item3{
+            display: none;
+        }
+        .grid-item4{
+            display: none;
+        }
+        .grid-item1{
+            .pseccion3{
+                font-size: 4.5vw;
+            }
+        }
+        .grid-item2{
+            .pseccion3{
+                font-size: 4.5vw;
+            }
+        }
+    }
+
+}

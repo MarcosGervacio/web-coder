@@ -1,0 +1,19 @@
+.rank{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color:white;
+    background-color: rgba(255, 255, 255, 0.1);
+    tr{
+        th{
+            text-transform: uppercase;
+            border: 4px ridge #000;
+            padding: 30px;
+        }
+        td{
+            border: 4px ridge #000;
+            padding: 30px;
+        }
+    }
+}
+

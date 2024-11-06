@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 70px !important;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255,0.8));
+}
+
+.menu{
+    display: none;
+}
+
+.nav{
+    z-index: 1000;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    border-bottom: green solid;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content:center;
+    ul{
+        list-style: none;
+        display: flex;
+        padding: 20px;
+        margin: 0 100px;
+        li{
+            margin: 0 25px;
+            a{
+                text-decoration: none;
+                color: rgb(3, 146, 22);
+                transition: 0.3s;
+            }
+            a:hover{
+                font-size: 20px;
+                color: rgb(0, 255, 34);
+                margin: 25px;
+                text-shadow: 0 0 10px #ffffff;  
+            }
+        }
+    }
+}
