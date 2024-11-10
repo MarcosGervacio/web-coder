@@ -17,6 +17,9 @@
     }
     .seccion1{
         flex-direction: column;
+        .noticias{
+            max-width: 70vw;
+        }
     }
 
     .seccion3{
@@ -28,6 +31,17 @@
         .grid-item2{
             .pseccion3{
                 font-size: 2.2vw;
+            }
+        }
+    }
+
+    .rank{
+        tr{
+            th{
+                padding: 7px;
+            }
+            td{
+                padding: 7px;
             }
         }
     }
