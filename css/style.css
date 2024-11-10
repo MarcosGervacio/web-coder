@@ -27,7 +27,10 @@ p {
 h2 {
   text-align: center;
   color: white;
-  font-size: 5vw;
+}
+
+h3 {
+  color: rgb(127, 240, 170);
 }
 
 h1 {
@@ -258,10 +261,10 @@ footer {
     flex-direction: column;
   }
   .seccion3 .grid-item1 .pseccion3 {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
   .seccion3 .grid-item2 .pseccion3 {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
   .form-soporte {
     margin-left: 10%;
@@ -283,10 +286,10 @@ footer {
     display: none;
   }
   .seccion3 .grid-item1 .pseccion3 {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
   .seccion3 .grid-item2 .pseccion3 {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
 }
 
