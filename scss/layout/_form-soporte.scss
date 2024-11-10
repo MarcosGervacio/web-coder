@@ -1,7 +1,10 @@
+@import '../utilities/extend';
+@import '../utilities/mixin';
+@import '../utilities/variables';
+
 .form-soporte{
-    background-color: rgba(255, 255, 255, 0.1);
+    @extend .fondo-transparente;
     text-align: center;
-    color: white;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 30px;
@@ -33,11 +36,7 @@
 
 
 .enviar-modif{
-    background-color: #2f6416;
-    color: #ffffff;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
+    @include boton(10px, #2f6416, 100px, 40px);
     transition: 0.5s;
  
 }

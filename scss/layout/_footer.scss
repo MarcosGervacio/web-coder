@@ -1,21 +1,23 @@
+@import '../utilities/variables';
+
 footer{
-    display: flex;
+    display: $display-flex;
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    color: $color-blanco;
+    border-top: 2px solid $transparencia
 }
 
 .parrafo-footer{
     height: 40px;
-    display: flex;
+    display: $display-flex;
     align-items: flex-end;
 }
 
 .redes{
     margin-left: 20px;
-    display: flex;
+    display: $display-flex;
     align-items: center;
     a{
         margin-left: 20px;
