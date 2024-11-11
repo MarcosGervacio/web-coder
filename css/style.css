@@ -293,19 +293,22 @@ footer {
     font-size: 2.2vw;
   }
   .rank tr th {
-    padding: 7px;
+    padding: 5px;
   }
   .rank tr td {
-    padding: 7px;
+    padding: 5px;
   }
   .form-soporte {
     margin-left: 10%;
     margin-right: 10%;
   }
-}
-@media (max-width: 320px) {
   .parrafo-footer {
     font-size: 13px;
+  }
+}
+@media (max-width: 370px) {
+  .parrafo-footer {
+    font-size: 12px;
   }
   .seccion3 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -324,10 +327,10 @@ footer {
     font-size: 3.5vw;
   }
   .rank tr th {
-    padding: 1px;
+    padding: 0px;
   }
   .rank tr td {
-    padding: 1px;
+    padding: 0px;
   }
 }
 

@@ -1,5 +1,5 @@
-@mixin boton($border-radius, $bg-color, $width, $height) {
-    color: white;
+@mixin boton($color, $border-radius, $bg-color, $width, $height) {
+    color: $color;
     border-radius: $border-radius;
     background-color: $bg-color;
     width: $width;
