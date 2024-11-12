@@ -263,6 +263,28 @@ footer {
   height: 400px;
 }
 
+@keyframes movimientoBoton {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.boton-ayuda {
+  animation-name: movimientoBoton;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  width: 50px;
+}
+
 @media (max-width: 953px) {
   .menu {
     display: flex;
@@ -305,6 +327,10 @@ footer {
   .parrafo-footer {
     font-size: 13px;
   }
+  .boton-ayuda {
+    width: 30px;
+    right: 10px;
+  }
 }
 @media (max-width: 370px) {
   .parrafo-footer {
@@ -331,6 +357,10 @@ footer {
   }
   .rank tr td {
     padding: 0px;
+  }
+  .boton-ayuda {
+    width: 25px;
+    right: 10px;
   }
 }
 

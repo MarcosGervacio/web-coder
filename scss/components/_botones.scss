@@ -1,0 +1,23 @@
+@keyframes movimientoBoton{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+.boton-ayuda{
+    animation-name: movimientoBoton;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 50px;
+}
